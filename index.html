@@ -14,17 +14,26 @@
         <div class="IMAGE1">
           <img src="img/IMAGE-logo.png" alt="IMAGE-logo.png" />
         </div>
+        <div class="hamburger-menu">
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+
+          <ul class="menu__box">
+            <li><a class="menu__item" href="#">Home</a></li>
+            <li><a class="menu__item" href="#">About</a></li>
+            <li><a class="menu__item" href="#">Team</a></li>
+            <li><a class="menu__item" href="#">Contact</a></li>
+            <li><a class="menu__item" href="#">Twitter</a></li>
+          </ul>
+        </div>
         <div class="header-text-list">
           <a class="header-text-link" href="#!"><p>OUR PLATFORM</p></a>
           <a class="header-text-link" href="#!"><p>ABOUT</p></a>
           <a class="header-text-link" href="#!"><p>NEWS</p></a>
           <a class="header-text-link" href="#!"><p>CAREERS</p></a>
           <a class="header-text-link" href="#!"><p>Contact</p></a>
-        </div>
-        <div class="header__burger burger">
-          <span class="burger__line burger__line_first"></span>
-          <span class="burger__line burger__line_second"></span>
-          <span class="burger__line burger__line_third"></span>
         </div>
       </div>
     </header>
@@ -45,7 +54,11 @@
       </article>
       <section class="new-way">
         <div class="section-new-way-container">
-          <div class="IMAGE-newway"><img src="img/image-back.png" alt="image-back.png" /></div>
+          <div class="IMAGE-newway">
+            <div class="IMAGE-newway1">
+              <img src="img/image-back.png" alt="image-back.png" />
+            </div>
+          </div>
           <div class="section-new-way">
             <div><p>A NEW WAY TO PROTECT THE PLANET</p></div>
           </div>
@@ -107,10 +120,12 @@
       </section>
       <section class="latest-updates">
         <div>
-          <div class="latest-updates-title"><p>Latest Updates</p></div>
+          <div class="latest-updates-title">
+            <div class="latest-updates-title-text"><p>Latest Updates</p></div>
+          </div>
           <div class="latest-updates-container">
             <div>
-              <div>
+              <div class="Image-last">
                 <img src="img/photo-people.png" alt="photo-people.png" />
               </div>
               <div class="latest-updates-data">
@@ -127,14 +142,16 @@
               </div>
             </div>
             <div>
-              <div><img src="img/people-lab.png" alt="people-lab.png" /></div>
+              <div class="Image-last">
+                <img src="img/people-lab.png" alt="people-lab.png" />
+              </div>
               <div class="latest-updates-data">
                 <p>August 3, 2022 | Article | 4 MIN READ</p>
               </div>
               <div class="latest-updates-text">
                 <p>Not All Chemistry is Created Equal</p>
               </div>
-              <div class="latest-updates-credits">
+              <div class="latest-updates-credits latest-updates-credits1">
                 <p>
                   In Jacqueline Heard's most recent blog she talks the current
                   state of chemisty
@@ -151,12 +168,12 @@
             <button class="follow-media-button">Linkedin</button>
           </div>
           <div class="follow-media-line">
-            <p class="follow-media-text">Follow us on Social Media</p>
+            <p class="follow-media-text media">Follow us on Social Media</p>
             <button class="follow-media-button">Twitter</button>
           </div>
           <div class="follow-media-line">
-            <p class="follow-media-text">Follow us on Social Media</p>
-            <button class="follow-media-button">Linkedin</button>
+            <p class="follow-media-text media">Follow us on Social Media</p>
+            <button class="follow-media-button">Instagram</button>
           </div>
         </div>
       </section>
@@ -166,7 +183,7 @@
     </main>
     <footer>
       <div class="footer-container">
-        <div class="footer-text">
+        <div class="footer-text foot">
           <p>Contact</p>
           <p>Info@enko.ag</p>
         </div>
@@ -180,10 +197,10 @@
           <p>PRIVACY POLICY</p>
           <p>TERMS & CONDITIONS</p>
         </div>
-        <div class="footer-text">
+        <div class="footer-text-last">
           <p>Socials</p>
           <p>Linkedin / Twitter / INSTAGRAM</p>
-          <p> Site by Ed.</p>
+          <p>Site by Ed.</p>
         </div>
       </div>
     </footer>
